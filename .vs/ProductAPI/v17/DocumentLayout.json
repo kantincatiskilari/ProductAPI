@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70EF89A3-05A6-4D7A-93E5-C9A7BE9397D7}|ProductAPI.WebAPI\\ProductAPI.WebAPI.csproj|c:\\users\\fatih\\source\\repos\\productapi\\productapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EF89A3-05A6-4D7A-93E5-C9A7BE9397D7}|ProductAPI.WebAPI\\ProductAPI.WebAPI.csproj|solutionrelative:productapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70EF89A3-05A6-4D7A-93E5-C9A7BE9397D7}|ProductAPI.WebAPI\\ProductAPI.WebAPI.csproj|c:\\users\\fatih\\source\\repos\\productapi\\productapi.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EF89A3-05A6-4D7A-93E5-C9A7BE9397D7}|ProductAPI.WebAPI\\ProductAPI.WebAPI.csproj|solutionrelative:productapi.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70EF89A3-05A6-4D7A-93E5-C9A7BE9397D7}|ProductAPI.WebAPI\\ProductAPI.WebAPI.csproj|c:\\users\\fatih\\source\\repos\\productapi\\productapi.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EF89A3-05A6-4D7A-93E5-C9A7BE9397D7}|ProductAPI.WebAPI\\ProductAPI.WebAPI.csproj|solutionrelative:productapi.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70EF89A3-05A6-4D7A-93E5-C9A7BE9397D7}|ProductAPI.WebAPI\\ProductAPI.WebAPI.csproj|c:\\users\\fatih\\source\\repos\\productapi\\productapi.webapi\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70EF89A3-05A6-4D7A-93E5-C9A7BE9397D7}|ProductAPI.WebAPI\\ProductAPI.WebAPI.csproj|solutionrelative:productapi.webapi\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07314E35-ADDF-43AE-9E41-889E08D7A57C}|ProductAPI.DataAccess\\ProductAPI.DataAccess.csproj|c:\\users\\fatih\\source\\repos\\productapi\\productapi.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07314E35-ADDF-43AE-9E41-889E08D7A57C}|ProductAPI.DataAccess\\ProductAPI.DataAccess.csproj|solutionrelative:productapi.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07314E35-ADDF-43AE-9E41-889E08D7A57C}|ProductAPI.DataAccess\\ProductAPI.DataAccess.csproj|c:\\users\\fatih\\source\\repos\\productapi\\productapi.dataaccess\\migrations\\20250706235155_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07314E35-ADDF-43AE-9E41-889E08D7A57C}|ProductAPI.DataAccess\\ProductAPI.DataAccess.csproj|solutionrelative:productapi.dataaccess\\migrations\\20250706235155_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07314E35-ADDF-43AE-9E41-889E08D7A57C}|ProductAPI.DataAccess\\ProductAPI.DataAccess.csproj|c:\\users\\fatih\\source\\repos\\productapi\\productapi.dataaccess\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07314E35-ADDF-43AE-9E41-889E08D7A57C}|ProductAPI.DataAccess\\ProductAPI.DataAccess.csproj|solutionrelative:productapi.dataaccess\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42327874-DEBB-4FA4-85E2-D45DC737891F}|ProductAPI.Business\\ProductAPI.Business.csproj|c:\\users\\fatih\\source\\repos\\productapi\\productapi.business\\mappings\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42327874-DEBB-4FA4-85E2-D45DC737891F}|ProductAPI.Business\\ProductAPI.Business.csproj|solutionrelative:productapi.business\\mappings\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42327874-DEBB-4FA4-85E2-D45DC737891F}|ProductAPI.Business\\ProductAPI.Business.csproj|c:\\users\\fatih\\source\\repos\\productapi\\productapi.business\\productapi.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42327874-DEBB-4FA4-85E2-D45DC737891F}|ProductAPI.Business\\ProductAPI.Business.csproj|solutionrelative:productapi.business\\productapi.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.DataAccess\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "ProductAPI.DataAccess\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.DataAccess\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "ProductAPI.DataAccess\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAUwCUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T16:07:48.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250706235155_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.DataAccess\\Migrations\\20250706235155_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProductAPI.DataAccess\\Migrations\\20250706235155_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.DataAccess\\Migrations\\20250706235155_InitialCreate.cs",
+              "RelativeToolTip": "ProductAPI.DataAccess\\Migrations\\20250706235155_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T16:02:52.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "ProductAPI.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "ProductAPI.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T16:00:16.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersControllers.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.WebAPI\\Controllers\\UsersControllers.cs",
+              "RelativeDocumentMoniker": "ProductAPI.WebAPI\\Controllers\\UsersControllers.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.WebAPI\\Controllers\\UsersControllers.cs",
+              "RelativeToolTip": "ProductAPI.WebAPI\\Controllers\\UsersControllers.cs",
+              "ViewState": "AgIAAFICAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T15:57:27.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductAPI.WebAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductAPI.WebAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T15:57:19.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.WebAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ProductAPI.WebAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.WebAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ProductAPI.WebAPI\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAkwAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T15:56:52.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductAPI.Business.csproj",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.Business\\ProductAPI.Business.csproj",
+              "RelativeDocumentMoniker": "ProductAPI.Business\\ProductAPI.Business.csproj",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.Business\\ProductAPI.Business.csproj",
+              "RelativeToolTip": "ProductAPI.Business\\ProductAPI.Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-08T15:54:08.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.Business\\Mappings\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "ProductAPI.Business\\Mappings\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.Business\\Mappings\\MappingProfiles.cs",
+              "RelativeToolTip": "ProductAPI.Business\\Mappings\\MappingProfiles.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T15:15:39.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProductAPI.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\ProductAPI\\ProductAPI.WebAPI\\Program.cs",
+              "RelativeToolTip": "ProductAPI.WebAPI\\Program.cs",
+              "ViewState": "AgIAAJEBAAAAAAAAAAAwwJgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T15:13:39.834Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductAPI.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrders">
+            <summary>
+            Get all orders
+            </summary>
+            <returns>List of orders</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrdersPaged(System.Int32,System.Int32)">
+            <summary>
+            Get orders with simple pagination
+            </summary>
+            <param name="pageNumber">Page number (default: 1)</param>
+            <param name="pageSize">Page size (default: 10)</param>
+            <returns>Paginated list of orders</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrder(System.Int32)">
+            <summary>
+            Get order by ID
+            </summary>
+            <param name="id">Order ID</param>
+            <returns>Order details</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrderWithItems(System.Int32)">
+            <summary>
+            Get order with items
+            </summary>
+            <param name="id">Order ID</param>
+            <returns>Order with order items</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrderByNumber(System.String)">
+            <summary>
+            Get order by order number
+            </summary>
+            <param name="orderNumber">Order number</param>
+            <returns>Order details</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.CreateOrder(ProductAPI.Business.DTOs.Order.CreateOrderDto)">
+            <summary>
+            Create a new order
+            </summary>
+            <param name="createOrderDto">Order creation data</param>
+            <returns>Created order</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.UpdateOrder(System.Int32,ProductAPI.Business.DTOs.Order.UpdateOrderDto)">
+            <summary>
+            Update order
+            </summary>
+            <param name="id">Order ID</param>
+            <param name="updateOrderDto">Order update data</param>
+            <returns>Updated order</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.DeleteOrder(System.Int32)">
+            <summary>
+            Delete order
+            </summary>
+            <param name="id">Order ID</param>
+            <returns>No content if successful</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.UpdateOrderStatus(System.Int32,ProductAPI.Business.DTOs.Order.UpdateOrderStatusDto)">
+            <summary>
+            Update order status
+            </summary>
+            <param name="id">Order ID</param>
+            <param name="updateStatusDto">Status update data</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.CancelOrder(System.Int32,System.String)">
+            <summary>
+            Cancel order
+            </summary>
+            <param name="id">Order ID</param>
+            <param name="reason">Cancellation reason</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.MarkAsShipped(System.Int32,System.String)">
+            <summary>
+            Mark order as shipped
+            </summary>
+            <param name="id">Order ID</param>
+            <param name="notes">Optional notes</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.MarkAsDelivered(System.Int32,System.String)">
+            <summary>
+            Mark order as delivered
+            </summary>
+            <param name="id">Order ID</param>
+            <param name="notes">Optional notes</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.ProcessOrder(System.Int32)">
+            <summary>
+            Process order (move from Pending to Processing)
+            </summary>
+            <param name="id">Order ID</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrdersByUser(System.Int32,System.Nullable{System.Int32})">
+            <summary>
+            Get orders by user ID
+            </summary>
+            <param name="userId">User ID</param>
+            <param name="takeCount">Number of recent orders to return</param>
+            <returns>User's orders</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetUserOrdersPaged(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Get user orders with pagination
+            </summary>
+            <param name="userId">User ID</param>
+            <param name="pageNumber">Page number</param>
+            <param name="pageSize">Page size</param>
+            <returns>Paginated user orders</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrdersByStatus(ProductAPI.Domain.Enums.OrderStatus)">
+            <summary>
+            Get orders by status
+            </summary>
+            <param name="status">Order status</param>
+            <returns>Orders with specified status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.SearchOrders(System.String)">
+            <summary>
+            Search orders
+            </summary>
+            <param name="searchTerm">Search term</param>
+            <returns>Search results</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrdersByDateRange(System.DateTime,System.DateTime)">
+            <summary>
+            Get orders by date range
+            </summary>
+            <param name="startDate">Start date</param>
+            <param name="endDate">End date</param>
+            <returns>Orders in date range</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetRecentOrders(System.Int32)">
+            <summary>
+            Get recent orders
+            </summary>
+            <param name="takeCount">Number of orders to return</param>
+            <returns>Recent orders</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrderStatistics">
+            <summary>
+            Get order statistics
+            </summary>
+            <returns>Order summary statistics</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrderStatisticsByDateRange(System.DateTime,System.DateTime)">
+            <summary>
+            Get order statistics by date range
+            </summary>
+            <param name="startDate">Start date</param>
+            <param name="endDate">End date</param>
+            <returns>Order statistics for date range</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetTopOrdersByValue(System.Int32)">
+            <summary>
+            Get top orders by value
+            </summary>
+            <param name="takeCount">Number of orders to return</param>
+            <returns>Top orders by value</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetRevenue(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get revenue by date range
+            </summary>
+            <param name="startDate">Start date</param>
+            <param name="endDate">End date</param>
+            <returns>Revenue for date range</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.AddOrderItem(System.Int32,ProductAPI.Business.DTOs.Order.CreateOrderItemDto)">
+            <summary>
+            Add item to order
+            </summary>
+            <param name="id">Order ID</param>
+            <param name="orderItemDto">Order item data</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.UpdateOrderItem(System.Int32,System.Int32,ProductAPI.Business.DTOs.Order.CreateOrderItemDto)">
+            <summary>
+            Update order item
+            </summary>
+            <param name="id">Order ID</param>
+            <param name="itemId">Order item ID</param>
+            <param name="orderItemDto">Order item update data</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.RemoveOrderItem(System.Int32,System.Int32)">
+            <summary>
+            Remove item from order
+            </summary>
+            <param name="id">Order ID</param>
+            <param name="itemId">Order item ID</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.RecalculateOrderTotal(System.Int32)">
+            <summary>
+            Recalculate order total
+            </summary>
+            <param name="id">Order ID</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.BulkUpdateOrderStatus(System.Collections.Generic.IEnumerable{System.Int32},ProductAPI.Domain.Enums.OrderStatus,System.String)">
+            <summary>
+            Bulk update order status
+            </summary>
+            <param name="orderIds">List of order IDs</param>
+            <param name="newStatus">New status</param>
+            <param name="notes">Optional notes</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.BulkCancelOrders(System.Collections.Generic.IEnumerable{System.Int32},System.String)">
+            <summary>
+            Bulk cancel orders
+            </summary>
+            <param name="orderIds">List of order IDs</param>
+            <param name="reason">Cancellation reason</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetDailyRevenue(System.DateTime,System.DateTime)">
+            <summary>
+            Get daily revenue analytics
+            </summary>
+            <param name="startDate">Start date</param>
+            <param name="endDate">End date</param>
+            <returns>Daily revenue data</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetDailyOrderCount(System.DateTime,System.DateTime)">
+            <summary>
+            Get daily order count analytics
+            </summary>
+            <param name="startDate">Start date</param>
+            <param name="endDate">End date</param>
+            <returns>Daily order count data</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetTopCustomers(System.Int32)">
+            <summary>
+            Get top customers by order value
+            </summary>
+            <param name="takeCount">Number of customers to return</param>
+            <returns>Top customers</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.CalculateOrder(ProductAPI.Business.DTOs.Order.CreateOrderDto)">
+            <summary>
+            Get order calculation preview
+            </summary>
+            <param name="createOrderDto">Order data for calculation</param>
+            <returns>Order calculations</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.ValidateOrder(ProductAPI.Business.DTOs.Order.CreateOrderDto)">
+            <summary>
+            Validate order without creating
+            </summary>
+            <param name="createOrderDto">Order data for validation</param>
+            <returns>Validation results</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrdersCreatedToday">
+            <summary>
+            Get orders created today
+            </summary>
+            <returns>Today's orders</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrdersCreatedThisWeek">
+            <summary>
+            Get orders created this week
+            </summary>
+            <returns>This week's orders</returns>
+        </member>
+        <member name="M:ProductAPI.WebAPI.Controllers.OrdersController.GetOrdersCreatedThisMonth">
+            <summary>
+            Get orders created this month
+            </summary>
+            <returns>This month's orders</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetProducts">
+            <summary>
+            Get all products
+            </summary>
+            <returns>List of products</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetProductsPaged(System.Int32,System.Int32)">
+            <summary>
+            Get products with simple pagination
+            </summary>
+            <param name="pageNumber">Page number (default: 1)</param>
+            <param name="pageSize">Page size (default: 10)</param>
+            <returns>Paginated list of products</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetProduct(System.Int32)">
+            <summary>
+            Get product by ID
+            </summary>
+            <param name="id">Product ID</param>
+            <returns>Product details</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetProductBySku(System.String)">
+            <summary>
+            Get product by SKU
+            </summary>
+            <param name="sku">Product SKU</param>
+            <returns>Product details</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.CreateProduct(ProductAPI.Business.DTOs.Product.CreateProductDto)">
+            <summary>
+            Create a new product
+            </summary>
+            <param name="createProductDto">Product creation data</param>
+            <returns>Created product</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.UpdateProduct(System.Int32,ProductAPI.Business.DTOs.Product.UpdateProductDto)">
+            <summary>
+            Update product
+            </summary>
+            <param name="id">Product ID</param>
+            <param name="updateProductDto">Product update data</param>
+            <returns>Updated product</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            Delete product
+            </summary>
+            <param name="id">Product ID</param>
+            <returns>No content if successful</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.SearchProducts(System.String)">
+            <summary>
+            Search products
+            </summary>
+            <param name="searchTerm">Search term</param>
+            <returns>Search results</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetActiveProducts">
+            <summary>
+            Get active products
+            </summary>
+            <returns>Active products</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetInStockProducts">
+            <summary>
+            Get in-stock products
+            </summary>
+            <returns>In-stock products</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetOutOfStockProducts">
+            <summary>
+            Get out-of-stock products
+            </summary>
+            <returns>Out-of-stock products</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetLowStockProducts">
+            <summary>
+            Get low-stock products
+            </summary>
+            <returns>Low-stock products</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetProductsByPriceRange(System.Decimal,System.Decimal)">
+            <summary>
+            Get products by price range
+            </summary>
+            <param name="minPrice">Minimum price</param>
+            <param name="maxPrice">Maximum price</param>
+            <returns>Products in price range</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.UpdateStock(System.Int32,ProductAPI.Business.DTOs.Product.UpdateStockDto)">
+            <summary>
+            Update product stock
+            </summary>
+            <param name="id">Product ID</param>
+            <param name="updateStockDto">Stock update data</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.AddStock(System.Int32,System.Int32,System.String)">
+            <summary>
+            Add stock to product
+            </summary>
+            <param name="id">Product ID</param>
+            <param name="quantity">Quantity to add</param>
+            <param name="notes">Optional notes</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.RemoveStock(System.Int32,System.Int32,System.String)">
+            <summary>
+            Remove stock from product
+            </summary>
+            <param name="id">Product ID</param>
+            <param name="quantity">Quantity to remove</param>
+            <param name="notes">Optional notes</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.UpdatePrice(System.Int32,ProductAPI.Business.DTOs.Product.UpdatePriceDto)">
+            <summary>
+            Update product price
+            </summary>
+            <param name="id">Product ID</param>
+            <param name="updatePriceDto">Price update data</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.ActivateProduct(System.Int32)">
+            <summary>
+            Activate product
+            </summary>
+            <param name="id">Product ID</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.DeactivateProduct(System.Int32)">
+            <summary>
+            Deactivate product
+            </summary>
+            <param name="id">Product ID</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetSimilarProducts(System.Int32,System.Int32)">
+            <summary>
+            Get similar products
+            </summary>
+            <param name="id">Product ID</param>
+            <param name="takeCount">Number of similar products to return</param>
+            <returns>Similar products</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetProductStatistics">
+            <summary>
+            Get product statistics
+            </summary>
+            <returns>Product summary statistics</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.GetRecentProducts(System.Int32)">
+            <summary>
+            Get recently added products
+            </summary>
+            <param name="takeCount">Number of products to return</param>
+            <returns>Recently added products</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.BulkActivateProducts(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Bulk activate products
+            </summary>
+            <param name="productIds">List of product IDs</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.BulkDeactivateProducts(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Bulk deactivate products
+            </summary>
+            <param name="productIds">List of product IDs</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.ProductsController.BulkUpdatePrices(System.Collections.Generic.IEnumerable{System.Int32},ProductAPI.Business.DTOs.Product.UpdatePriceDto)">
+            <summary>
+            Bulk update product prices
+            </summary>
+            <param name="productIds">List of product IDs</param>
+            <param name="updatePriceDto">Price update data</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.GetUsers">
+            <summary>
+            Get all users
+            </summary>
+            <returns>List of users</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.GetUsersPaged(System.Int32,System.Int32,System.String,System.Nullable{ProductAPI.Domain.Enums.UserRole},System.Nullable{System.Boolean})">
+            <summary>
+            Get users with pagination
+            </summary>
+            <param name="pageNumber">Page number (default: 1)</param>
+            <param name="pageSize">Page size (default: 10)</param>
+            <param name="searchTerm">Search term for filtering</param>
+            <param name="role">Filter by role</param>
+            <param name="isActive">Filter by active status</param>
+            <returns>Paginated list of users</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.GetUser(System.Int32)">
+            <summary>
+            Get user by ID
+            </summary>
+            <param name="id">User ID</param>
+            <returns>User details</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.GetUserProfile(System.Int32)">
+            <summary>
+            Get user profile by ID
+            </summary>
+            <param name="id">User ID</param>
+            <returns>User profile</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.GetUserWithOrders(System.Int32,System.Nullable{System.Int32})">
+            <summary>
+            Get user with orders
+            </summary>
+            <param name="id">User ID</param>
+            <param name="takeOrdersCount">Number of recent orders to include</param>
+            <returns>User with orders</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.CreateUser(ProductAPI.Business.DTOs.User.CreateUserDto)">
+            <summary>
+            Create a new user
+            </summary>
+            <param name="createUserDto">User creation data</param>
+            <returns>Created user</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.UpdateUser(System.Int32,ProductAPI.Business.DTOs.User.UpdateUserDto)">
+            <summary>
+            Update user
+            </summary>
+            <param name="id">User ID</param>
+            <param name="updateUserDto">User update data</param>
+            <returns>Updated user</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.DeleteUser(System.Int32)">
+            <summary>
+            Delete user
+            </summary>
+            <param name="id">User ID</param>
+            <returns>No content if successful</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.ChangePassword(System.Int32,ProductAPI.Business.DTOs.User.ChangePasswordDto)">
+            <summary>
+            Change user password
+            </summary>
+            <param name="id">User ID</param>
+            <param name="changePasswordDto">Password change data</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.ActivateUser(System.Int32)">
+            <summary>
+            Activate user
+            </summary>
+            <param name="id">User ID</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.DeactivateUser(System.Int32)">
+            <summary>
+            Deactivate user
+            </summary>
+            <param name="id">User ID</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.ToggleUserStatus(System.Int32)">
+            <summary>
+            Toggle user status
+            </summary>
+            <param name="id">User ID</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.ChangeUserRole(System.Int32,ProductAPI.Domain.Enums.UserRole)">
+            <summary>
+            Change user role
+            </summary>
+            <param name="id">User ID</param>
+            <param name="newRole">New role</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.SearchUsers(System.String,System.Int32,System.Int32)">
+            <summary>
+            Search users
+            </summary>
+            <param name="searchTerm">Search term</param>
+            <param name="pageNumber">Page number</param>
+            <param name="pageSize">Page size</param>
+            <returns>Search results</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.GetUsersByRole(ProductAPI.Domain.Enums.UserRole,System.Boolean)">
+            <summary>
+            Get users by role
+            </summary>
+            <param name="role">User role</param>
+            <param name="activeOnly">Include only active users</param>
+            <returns>Users with specified role</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.GetUserStatistics">
+            <summary>
+            Get user statistics
+            </summary>
+            <returns>User summary statistics</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.GetRecentUsers(System.Int32)">
+            <summary>
+            Get recently registered users
+            </summary>
+            <param name="takeCount">Number of users to return</param>
+            <returns>Recently registered users</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.BulkActivateUsers(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Bulk activate users
+            </summary>
+            <param name="userIds">List of user IDs</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:MyProject.WebAPI.Controllers.UsersController.BulkDeactivateUsers(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Bulk deactivate users
+            </summary>
+            <param name="userIds">List of user IDs</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="T:EnumSchemaFilter">
+            <summary>
+            Enum schema filter for Swagger documentation
+            </summary>
+        </member>
+        <member name="T:SeedData">
+            <summary>
+            Database seed data
+            </summary>
+        </member>
+    </members>
+</doc>

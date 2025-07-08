@@ -1,0 +1,17 @@
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\bin\Debug\net9.0\ProductAPI.DataAccess.deps.json
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\bin\Debug\net9.0\ProductAPI.DataAccess.runtimeconfig.json
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\bin\Debug\net9.0\ProductAPI.DataAccess.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\bin\Debug\net9.0\ProductAPI.DataAccess.pdb
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\bin\Debug\net9.0\ProductAPI.Domain.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\bin\Debug\net9.0\ProductAPI.Domain.pdb
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ProductAPI.DataAccess.csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ProductAPI.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ProductAPI.DataAccess.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ProductAPI.DataAccess.AssemblyInfo.cs
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ProductAPI.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ProductA.678F3472.Up2Date
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ProductAPI.DataAccess.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\refint\ProductAPI.DataAccess.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ProductAPI.DataAccess.pdb
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ProductAPI.DataAccess.genruntimeconfig.cache
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.DataAccess\obj\Debug\net9.0\ref\ProductAPI.DataAccess.dll

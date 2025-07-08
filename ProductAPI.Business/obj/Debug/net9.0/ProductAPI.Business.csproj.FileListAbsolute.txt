@@ -1,0 +1,17 @@
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\ProductAPI.Business.csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\ProductAPI.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\ProductAPI.Business.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\ProductAPI.Business.AssemblyInfo.cs
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\ProductAPI.Business.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\bin\Debug\net9.0\ProductAPI.Business.deps.json
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\bin\Debug\net9.0\ProductAPI.Business.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\bin\Debug\net9.0\ProductAPI.Business.pdb
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\bin\Debug\net9.0\ProductAPI.DataAccess.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\bin\Debug\net9.0\ProductAPI.Domain.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\bin\Debug\net9.0\ProductAPI.DataAccess.pdb
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\bin\Debug\net9.0\ProductAPI.Domain.pdb
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\ProductA.7123F33F.Up2Date
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\ProductAPI.Business.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\refint\ProductAPI.Business.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\ProductAPI.Business.pdb
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Business\obj\Debug\net9.0\ref\ProductAPI.Business.dll

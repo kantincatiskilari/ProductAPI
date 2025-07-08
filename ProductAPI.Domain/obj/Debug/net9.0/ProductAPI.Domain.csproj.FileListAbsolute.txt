@@ -1,0 +1,11 @@
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\bin\Debug\net9.0\ProductAPI.Domain.deps.json
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\bin\Debug\net9.0\ProductAPI.Domain.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\bin\Debug\net9.0\ProductAPI.Domain.pdb
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\obj\Debug\net9.0\ProductAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\obj\Debug\net9.0\ProductAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\obj\Debug\net9.0\ProductAPI.Domain.AssemblyInfo.cs
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\obj\Debug\net9.0\ProductAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\obj\Debug\net9.0\ProductAPI.Domain.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\obj\Debug\net9.0\refint\ProductAPI.Domain.dll
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\obj\Debug\net9.0\ProductAPI.Domain.pdb
+C:\Users\fatih\source\repos\ProductAPI\ProductAPI.Domain\obj\Debug\net9.0\ref\ProductAPI.Domain.dll

@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ProductAPI.Business\\Services",
+    "\\ProductAPI.Business\\Services\\Implementations",
+    "\\ProductAPI.DataAccess",
+    "\\ProductAPI.DataAccess\\Context",
+    "\\ProductAPI.DataAccess\\Migrations",
+    "\\ProductAPI.WebAPI",
+    "\\ProductAPI.WebAPI\\Controllers"
+  ],
+  "SelectedNode": "\\ProductAPI.DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+  "PreviewInSolutionExplorer": false
+}
